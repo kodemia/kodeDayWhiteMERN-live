@@ -1,0 +1,21 @@
+{
+  "name": "api-kodeday-white",
+  "version": "1.0.0",
+  "description": "API para kodeday",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongo",
+    "mongoose",
+    "api",
+    "rest"
+  ],
+  "author": "devcharles",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.16"
+  }
+}
