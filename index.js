@@ -1,9 +1,11 @@
 
 const express = require('express')
 const mongoose = require('mongoose')
+const cors = require('cors')
 
 const DB_URL = 'mongodb://kodemia:kodemiarules@clustercharles-shard-00-00-bo63z.mongodb.net:27017,clustercharles-shard-00-01-bo63z.mongodb.net:27017,clustercharles-shard-00-02-bo63z.mongodb.net:27017/blogLovecraft?ssl=true&replicaSet=ClusterCharles-shard-0&authSource=admin&retryWrites=true'
 const app = express()
+app.use(cors())
 
 mongoose.connect(DB_URL, { useNewUrlParser: true })
 
